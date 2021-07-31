@@ -1,0 +1,10 @@
+n = int(input('Diga o número que deseja ver as tabuadas: '))
+print('>>>Tabuada de Adição do número', n)
+print('{} + 1 = {}\n{} + 2 = {}\n{} + 3 = {}\n{} + 4 = {}\n{} + 5 = {}\n{} + 6 = {}\n{} + 7 = {}\n{} + 8 = {}\n{} + 9 = {}\n{} + 10 = {}'.format(n, (n + 1), n, (n + 2), n, (n + 3), n, (n + 4), n, (n + 5), n, (n + 6), n, (n + 7), n, (n + 8), n, (n + 9), n, (n + 10)))
+print('>>>Tabuada de Substração do número', n)
+print('{} - 1 = {}\n{} - 2 = {}\n{} - 3 = {}\n{} - 4 = {}\n{} - 5 = {}\n{} - 6 = {}\n{} - 7 = {}\n{} - 8 = {}\n{} - 9 = {}\n{} - 10 = {}'.format(n, (n - 1), n, (n - 2), n, (n - 3), n, (n - 4), n, (n - 5), n, (n - 6), n, (n - 7), n, (n - 8), n, (n - 9), n, (n - 10)))
+print('>>>Tabuada de Multiplicação do número', n)
+print('{} × 1 = {}\n{} × 2 = {}\n{} × 3 = {}\n{} × 4 = {}\n{} × 5 = {}\n{} × 6 = {}\n{} × 7 = {}\n{} × 8 = {}\n{} × 9 = {}\n{} × 10 = {}'.format(n, (n * 1), n, (n * 2), n, (n * 3), n, (n * 4), n, (n * 5), n, (n * 6), n, (n * 7), n, (n * 8), n, (n * 9), n, (n * 10)))
+print('>>>Tabuada de Divisão do número', n,'(dois números após a vírgula)')
+print('{} ÷ 1 = {:.2f}\n{} ÷ 2 = {:.2f}\n{} ÷ 3 = {:.2f}\n{} ÷ 4 = {:.2f}\n{} ÷ 5 = {:.2f}\n{} ÷ 6 = {:.2f}\n{} ÷ 7 = {:.2f}\n{} ÷ 8 = {:.2f}\n{} ÷ 9 = {:.2f}\n{} ÷ 10 = {:.2f}'.format(n, (n / 1), n, (n / 2), n, (n / 3), n, (n / 4), n, (n / 5), n, (n / 6), n, (n / 7), n, (n / 8), n, (n / 9), n, (n / 10)))
+
