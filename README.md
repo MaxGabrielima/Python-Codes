@@ -1,2 +1,2 @@
 # Python-Codes
-Meu estudo de Python!
+Meu estudo de **Python!**
