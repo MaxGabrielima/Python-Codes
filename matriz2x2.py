@@ -1,0 +1,7 @@
+print('Este programa tem como intuito, descobrir o determinante de uma matriz de ordem 2 (2x2). Digite o valor relacionado à linha e à coluna corretos.')
+a11 = int(input('Digite o valor de a1,1: '))
+a12 = int(input('Digite o valor de a1,2: '))
+a21 = int(input('Digite o valor de a2,1: '))
+a22 = int(input('Digite o valor de a2,2: '))
+Det = (a11 * a22) - (a12 * a21)
+print('O determinante desta matriz de Ordem 2, é igual a', Det)
